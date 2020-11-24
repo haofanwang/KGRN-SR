@@ -15,7 +15,6 @@ class A_compute(nn.Module):
         super(A_compute, self).__init__()
         self.num_features = nf
         self.conv2d_1 = nn.Conv2d(input_features, int(nf * ratio[0]), 1, stride=1)
-        #        self.bn_1 = nn.BatchNorm2d(int(nf * ratio[0]))
         self.conv2d_2 = nn.Conv2d(int(nf * ratio[0]), int(nf * ratio[1]), 1, stride=1)
         self.conv2d_3 = nn.Conv2d(int(nf * ratio[1]), int(nf * ratio[2]), 1, stride=1)
         self.conv2d_4 = nn.Conv2d(int(nf * ratio[2]), 1, 1, stride=1)
@@ -210,57 +209,42 @@ class GGNN_Baseline(nn.Module):
         img = img.expand(self.encoder.max_role_count, img.size(0), img.size(1))
 
         img = img.transpose(0,1)
-        img = img.contiguous().view(batch_size * self.encoder.max_role_count, -1) # [batch_size*role_count, hidden_size]=[32*6, 1024]=[192,1024]
-        img = img.view(batch_size, self.encoder.max_role_count, -1) # [batch_size,role_count, hidden_size]=[32,6,1024]
-        # print("0",img.shape)
-        verb_embd = self.verb_emb(gt_verb) # [batch_size, word_embedding_size]=[32,300]
-        # print("1",verb_embd.shape)
-        role_embd = self.role_emb(role_idx) # [batch_size, role_count, word_embedding_size]=[32,6,300]
-        # print("2",role_embd.shape)
+        img = img.contiguous().view(batch_size * self.encoder.max_role_count, -1)
+        img = img.view(batch_size, self.encoder.max_role_count, -1)
+
+        verb_embd = self.verb_emb(gt_verb)
+        role_embd = self.role_emb(role_idx)
 
         verb_embed_expand = verb_embd.expand(self.encoder.max_role_count, verb_embd.size(0), verb_embd.size(1))
-        verb_embed_expand = verb_embed_expand.transpose(0,1) # [batch_size, role_count, word_embedding_size]=[32,6,300]
-        # print("3",verb_embed_expand.shape)
+        verb_embed_expand = verb_embed_expand.transpose(0,1)
 
-        concat_query = torch.cat([verb_embed_expand, role_embd], -1) # [batch_size, role_count, word_embedding_size*2]=[32,6,600]
-        # print("4",concat_query.shape)
+        concat_query = torch.cat([verb_embed_expand, role_embd], -1)
         role_verb_embd = concat_query.contiguous().view(-1, role_embd.size(-1)*2)
-        q_emb = self.query_composer(role_verb_embd) # [batch_size*role_count, hidden_size]=[32*6,1024]=[192,1024]
-        # print("5",q_emb.shape)
+        q_emb = self.query_composer(role_verb_embd)
 
-        mask = self.encoder.get_adj_matrix_noself(gt_verb) # [32,6,6]
+        mask = self.encoder.get_adj_matrix_noself(gt_verb)
         if torch.cuda.is_available():
             mask = mask.to(torch.device('cuda'))
-        # print("6",mask.shape)
-        
-        # img: [32*6, 1024]
-        # role_embd: [32,6,300]
-        # verb_embed_expand: [32,6,300]
-        # print("7",img.shape, role_embd.shape, verb_embed_expand.shape)
 
-        cur_group = torch.cat([img,role_embd, verb_embed_expand],dim=-1) # [32,6,1024+300+300]
+        cur_group = torch.cat([img,role_embd, verb_embed_expand],dim=-1)
 
-        # print("8",input2ggnn.shape)
-        input2ggnn = cur_group.view(batch_size*self.encoder.max_role_count,-1) # [32*6,1024+300+300]
+        input2ggnn = cur_group.view(batch_size*self.encoder.max_role_count,-1)
 
-        out = self.ggnn(input2ggnn, mask) # [32*6,1024+300+300]
-        # print("9",out.shape)
+        out = self.ggnn(input2ggnn, mask)
 
-        # out_view = out.expand(3, out.size(0), out.size(1)) # [batch_size, 6, 1024+300+300]
-        out_view = out.contiguous().view(batch_size, self.encoder.max_role_count, -1) # [batch_size, 6, 1024+300+300]
+        out_view = out.contiguous().view(batch_size, self.encoder.max_role_count, -1)
 
-        feature1, adj_r2r = self.G1(out_view) # [batch_size,6,512], [batch_size,6,6]
-        feature2, adj_r2v = self.G2(out_view) # [batch_size,6,512], [batch_size,6,6]
+        feature1, adj_r2r = self.G1(out_view)
+        feature2, adj_r2v = self.G2(out_view)
 
         feature1 = feature1.contiguous().view(batch_size*self.encoder.max_role_count,-1)
         feature2 = feature1.contiguous().view(batch_size*self.encoder.max_role_count,-1)
-        # out_view = out_view.contiguous().view(batch_size*self.encoder.max_role_count,-1)
 
-        out = torch.cat([feature1,feature2, out], dim=-1) # [batch_size*6, 1024+300+300+512+512]
+        out = torch.cat([feature1,feature2, out], dim=-1)
 
-        logits = self.classifier(out) # [batch_size*6, 2001]
+        logits = self.classifier(out)
 
-        role_label_pred = logits.contiguous().view(v.size(0), self.encoder.max_role_count, -1) # [batch_size, 6, 2001]
+        role_label_pred = logits.contiguous().view(v.size(0), self.encoder.max_role_count, -1)
 
         return role_label_pred, adj_r2r, adj_r2v
 

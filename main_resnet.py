@@ -203,7 +203,7 @@ class NonlocalResNetModel(nn.Module):
             return verb_pred
             # return torch.argmax(verb_pred, dim=1), torch.topk(verb_pred, 5, dim=1)[1]
 
-logging.basicConfig(filename ='./logs/main_resnet_tda.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename ='./logs/main_resnet.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def train(model, train_loader, dev_loader, optimizer, lr, max_epoch, model_dir, encoder, gpu_mode, clip_norm, model_name, model_saving_name, eval_frequency=1000):
     model.train()
@@ -341,11 +341,11 @@ def main():
     parser.add_argument('--evaluate', action='store_true', help='Only use the testing mode')
     parser.add_argument('--test', action='store_true', help='Only use the testing mode')
     parser.add_argument('--dataset_folder', type=str, default='./imSitu', help='Location of annotations')
-    parser.add_argument('--imgset_dir', type=str, default='../context-aware-reasoning-for-sr-master/resized_256', help='Location of original images')
+    parser.add_argument('--imgset_dir', type=str, default='./resized_256', help='Location of original images')
     parser.add_argument('--train_file', default="train_freq2000.json", type=str, help='trainfile name')
     parser.add_argument('--dev_file', default="dev_freq2000.json", type=str, help='dev file name')
     parser.add_argument('--test_file', default="test_freq2000.json", type=str, help='test file name')
-    parser.add_argument('--model_saving_name', default="main_resnet_tda", type=str, help='saving name of the outpul model')
+    parser.add_argument('--model_saving_name', default="main_resnet", type=str, help='saving name of the outpul model')
 
     parser.add_argument('--epochs', type=int, default=100)
     parser.add_argument('--model', type=str, default='resnet_verb_classifier')

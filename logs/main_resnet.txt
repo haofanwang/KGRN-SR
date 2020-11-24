@@ -1,0 +1,272 @@
+2020-11-13 11:28:09,505 - INFO - Model training started!
+2020-11-13 11:30:15,491 - INFO - Epoch 0 completed!
+2020-11-13 11:30:58,308 - INFO - 399,1,103, 1-verb:6.57 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:16.53 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 5.47, avg loss = 5.83
+2020-11-13 11:32:14,582 - INFO - Epoch 1 completed!
+2020-11-13 11:33:37,796 - INFO - 799,2,207, 1-verb:10.83 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:25.13 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 5.12, avg loss = 5.55
+2020-11-13 11:34:12,563 - INFO - Epoch 2 completed!
+2020-11-13 11:34:58,404 - INFO - evaluating model...
+2020-11-13 11:35:57,517 - INFO - Dev 999 average :7.40 1-verb:18.65 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:40.58 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 11:35:58,577 - INFO - New best model saved! 0.07403769841269842
+2020-11-13 11:35:58,577 - INFO - current train loss 5439.299883842468
+2020-11-13 11:37:11,096 - INFO - Epoch 3 completed!
+2020-11-13 11:37:19,562 - INFO - 1199,4,15, 1-verb:19.07 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:40.48 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 4.82, avg loss = 4.97
+2020-11-13 11:39:08,792 - INFO - Epoch 4 completed!
+2020-11-13 11:40:01,559 - INFO - 1599,5,119, 1-verb:20.10 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:42.03 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 4.61, avg loss = 4.86
+2020-11-13 11:41:15,019 - INFO - Epoch 5 completed!
+2020-11-13 11:42:49,781 - INFO - 1999,6,223, 1-verb:22.69 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:45.86 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 4.11, avg loss = 4.68
+2020-11-13 11:42:49,782 - INFO - evaluating model...
+2020-11-13 11:43:46,031 - INFO - Dev 1999 average :10.81 1-verb:29.95 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:56.54 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 11:43:47,028 - INFO - New best model saved! 0.10811507936507936
+2020-11-13 11:43:47,029 - INFO - current train loss 4673.588196277618
+2020-11-13 11:44:17,429 - INFO - Epoch 6 completed!
+2020-11-13 11:46:21,998 - INFO - Epoch 7 completed!
+2020-11-13 11:46:37,360 - INFO - 2399,8,31, 1-verb:31.47 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:57.50 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 4.03, avg loss = 4.20
+2020-11-13 11:48:26,716 - INFO - Epoch 8 completed!
+2020-11-13 11:49:25,953 - INFO - 2799,9,135, 1-verb:33.17 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:59.47 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.91, avg loss = 4.12
+2020-11-13 11:50:31,617 - INFO - Epoch 9 completed!
+2020-11-13 11:50:53,069 - INFO - evaluating model...
+2020-11-13 11:51:49,386 - INFO - Dev 2999 average :10.62 1-verb:29.19 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:55.80 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 11:51:49,387 - INFO - current train loss 4098.620829105377
+2020-11-13 11:53:22,571 - INFO - 3199,10,239, 1-verb:34.36 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:60.79 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 4.14, avg loss = 4.08
+2020-11-13 11:53:49,734 - INFO - Epoch 10 completed!
+2020-11-13 11:56:09,064 - INFO - Epoch 11 completed!
+2020-11-13 11:56:33,457 - INFO - 3599,12,47, 1-verb:37.03 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:63.73 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.85, avg loss = 3.97
+2020-11-13 11:58:28,131 - INFO - Epoch 12 completed!
+2020-11-13 11:59:41,339 - INFO - 3999,13,151, 1-verb:38.95 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:65.70 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.67, avg loss = 3.89
+2020-11-13 11:59:41,341 - INFO - evaluating model...
+2020-11-13 12:00:37,508 - INFO - Dev 3999 average :12.15 1-verb:34.62 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:62.55 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 12:00:38,590 - INFO - New best model saved! 0.12145337301587303
+2020-11-13 12:00:38,590 - INFO - current train loss 3888.0293819904327
+2020-11-13 12:01:45,956 - INFO - Epoch 13 completed!
+2020-11-13 12:03:46,120 - INFO - 4399,14,255, 1-verb:44.11 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:70.70 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.74, avg loss = 3.71
+2020-11-13 12:04:05,273 - INFO - Epoch 14 completed!
+2020-11-13 12:06:40,872 - INFO - Epoch 15 completed!
+2020-11-13 12:07:16,460 - INFO - 4799,16,63, 1-verb:44.87 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:71.45 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.66, avg loss = 3.68
+2020-11-13 12:08:58,499 - INFO - evaluating model...
+2020-11-13 12:09:54,564 - INFO - Dev 4999 average :12.26 1-verb:35.16 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:62.94 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 12:09:55,578 - INFO - New best model saved! 0.12262896825396827
+2020-11-13 12:09:55,578 - INFO - current train loss 3654.8733928203583
+2020-11-13 12:10:12,047 - INFO - Epoch 16 completed!
+2020-11-13 12:11:41,515 - INFO - 5199,17,167, 1-verb:49.90 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:75.49 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.47, avg loss = 3.52
+2020-11-13 12:12:47,563 - INFO - Epoch 17 completed!
+2020-11-13 12:15:08,615 - INFO - 5599,18,271, 1-verb:52.24 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:77.08 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.26, avg loss = 3.45
+2020-11-13 12:15:21,521 - INFO - Epoch 18 completed!
+2020-11-13 12:17:56,213 - INFO - Epoch 19 completed!
+2020-11-13 12:18:39,587 - INFO - 5999,20,79, 1-verb:54.38 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:78.64 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.25, avg loss = 3.38
+2020-11-13 12:18:39,589 - INFO - evaluating model...
+2020-11-13 12:19:36,142 - INFO - Dev 5999 average :12.77 1-verb:37.12 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:65.02 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 12:19:37,142 - INFO - New best model saved! 0.1276736111111111
+2020-11-13 12:19:37,142 - INFO - current train loss 3376.5634021759033
+2020-11-13 12:21:29,217 - INFO - Epoch 20 completed!
+2020-11-13 12:23:06,164 - INFO - 6399,21,183, 1-verb:58.89 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:81.55 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.30, avg loss = 3.26
+2020-11-13 12:24:04,041 - INFO - Epoch 21 completed!
+2020-11-13 12:26:34,659 - INFO - 6799,22,287, 1-verb:59.34 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:81.92 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.25, avg loss = 3.24
+2020-11-13 12:26:39,054 - INFO - Epoch 22 completed!
+2020-11-13 12:28:20,132 - INFO - evaluating model...
+2020-11-13 12:29:16,225 - INFO - Dev 6999 average :12.76 1-verb:37.01 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:65.04 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 12:29:16,226 - INFO - current train loss 3223.2744290828705
+2020-11-13 12:30:09,823 - INFO - Epoch 23 completed!
+2020-11-13 12:31:01,491 - INFO - 7199,24,95, 1-verb:60.75 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:82.80 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.26, avg loss = 3.21
+2020-11-13 12:32:44,934 - INFO - Epoch 24 completed!
+2020-11-13 12:34:29,773 - INFO - 7599,25,199, 1-verb:61.08 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:83.13 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.22, avg loss = 3.18
+2020-11-13 12:35:18,737 - INFO - Epoch 25 completed!
+2020-11-13 12:37:54,215 - INFO - Epoch 26 completed!
+2020-11-13 12:38:00,635 - INFO - 7999,27,7, 1-verb:61.47 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:83.36 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.03, avg loss = 3.17
+2020-11-13 12:38:00,637 - INFO - evaluating model...
+2020-11-13 12:38:57,221 - INFO - Dev 7999 average :12.74 1-verb:37.15 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:64.77 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 12:38:57,221 - INFO - current train loss 3166.868091106415
+2020-11-13 12:41:22,481 - INFO - Epoch 27 completed!
+2020-11-13 12:42:21,938 - INFO - 8399,28,111, 1-verb:63.18 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:84.23 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.08, avg loss = 3.13
+2020-11-13 12:43:56,694 - INFO - Epoch 28 completed!
+2020-11-13 12:45:50,386 - INFO - 8799,29,215, 1-verb:63.58 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:84.47 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.22, avg loss = 3.12
+2020-11-13 12:46:29,783 - INFO - Epoch 29 completed!
+2020-11-13 12:47:33,889 - INFO - evaluating model...
+2020-11-13 12:48:30,336 - INFO - Dev 8999 average :12.67 1-verb:36.93 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:64.44 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 12:48:30,337 - INFO - current train loss 3106.550669670105
+2020-11-13 12:50:01,386 - INFO - Epoch 30 completed!
+2020-11-13 12:50:15,778 - INFO - 9199,31,23, 1-verb:64.32 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:85.10 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.93, avg loss = 3.11
+2020-11-13 12:52:36,177 - INFO - Epoch 31 completed!
+2020-11-13 12:53:43,431 - INFO - 9599,32,127, 1-verb:64.91 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:85.42 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.14, avg loss = 3.08
+2020-11-13 12:55:10,295 - INFO - Epoch 32 completed!
+2020-11-13 12:57:10,825 - INFO - 9999,33,231, 1-verb:65.37 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:85.59 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.22, avg loss = 3.06
+2020-11-13 12:57:10,827 - INFO - evaluating model...
+2020-11-13 12:58:07,176 - INFO - Dev 9999 average :12.69 1-verb:36.84 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:64.66 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 12:58:07,177 - INFO - current train loss 3060.928985595703
+2020-11-13 12:58:40,676 - INFO - Epoch 33 completed!
+2020-11-13 13:01:14,381 - INFO - Epoch 34 completed!
+2020-11-13 13:01:37,463 - INFO - 10399,35,39, 1-verb:66.68 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:86.16 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.91, avg loss = 3.03
+2020-11-13 13:03:50,572 - INFO - Epoch 35 completed!
+2020-11-13 13:05:06,696 - INFO - 10799,36,143, 1-verb:67.05 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:86.34 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.98, avg loss = 3.02
+2020-11-13 13:06:24,939 - INFO - Epoch 36 completed!
+2020-11-13 13:06:51,494 - INFO - evaluating model...
+2020-11-13 13:07:48,204 - INFO - Dev 10999 average :12.60 1-verb:36.60 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:64.20 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 13:07:48,205 - INFO - current train loss 3016.2306401729584
+2020-11-13 13:09:30,724 - INFO - 11199,37,247, 1-verb:67.96 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:87.15 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.05, avg loss = 3.00
+2020-11-13 13:09:55,153 - INFO - Epoch 37 completed!
+2020-11-13 13:12:28,320 - INFO - Epoch 38 completed!
+2020-11-13 13:12:58,570 - INFO - 11599,39,55, 1-verb:68.40 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:87.19 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.88, avg loss = 2.98
+2020-11-13 13:15:01,549 - INFO - Epoch 39 completed!
+2020-11-13 13:16:26,470 - INFO - 11999,40,159, 1-verb:68.69 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:87.29 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.08, avg loss = 2.97
+2020-11-13 13:16:26,472 - INFO - evaluating model...
+2020-11-13 13:17:23,049 - INFO - Dev 11999 average :12.53 1-verb:36.40 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:63.87 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 13:17:23,049 - INFO - current train loss 2971.743114233017
+2020-11-13 13:18:32,751 - INFO - Epoch 40 completed!
+2020-11-13 13:20:51,022 - INFO - 12399,41,263, 1-verb:69.68 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:87.76 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 3.00, avg loss = 2.95
+2020-11-13 13:21:08,136 - INFO - Epoch 41 completed!
+2020-11-13 13:23:41,580 - INFO - Epoch 42 completed!
+2020-11-13 13:24:21,210 - INFO - 12799,43,71, 1-verb:69.90 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:87.85 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.90, avg loss = 2.94
+2020-11-13 13:26:04,052 - INFO - evaluating model...
+2020-11-13 13:27:00,204 - INFO - Dev 12999 average :12.52 1-verb:36.33 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:63.81 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 13:27:00,205 - INFO - current train loss 2935.679048061371
+2020-11-13 13:27:12,946 - INFO - Epoch 43 completed!
+2020-11-13 13:28:46,527 - INFO - 13199,44,175, 1-verb:71.39 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:88.71 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.87, avg loss = 2.91
+2020-11-13 13:29:48,505 - INFO - Epoch 44 completed!
+2020-11-13 13:32:14,188 - INFO - 13599,45,279, 1-verb:71.21 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:88.59 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.95, avg loss = 2.91
+2020-11-13 13:32:22,900 - INFO - Epoch 45 completed!
+2020-11-13 13:34:57,315 - INFO - Epoch 46 completed!
+2020-11-13 13:35:45,419 - INFO - 13999,47,87, 1-verb:71.51 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:88.72 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.83, avg loss = 2.90
+2020-11-13 13:35:45,424 - INFO - evaluating model...
+2020-11-13 13:36:42,375 - INFO - Dev 13999 average :12.44 1-verb:36.21 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:63.35 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 13:36:42,376 - INFO - current train loss 2893.2743589878082
+2020-11-13 13:38:30,395 - INFO - Epoch 47 completed!
+2020-11-13 13:40:11,656 - INFO - 14399,48,191, 1-verb:72.38 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:89.01 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.81, avg loss = 2.88
+2020-11-13 13:41:04,839 - INFO - Epoch 48 completed!
+2020-11-13 13:43:39,079 - INFO - 14799,49,295, 1-verb:72.53 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:89.02 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.91, avg loss = 2.87
+2020-11-13 13:43:39,239 - INFO - Epoch 49 completed!
+2020-11-13 13:45:24,873 - INFO - evaluating model...
+2020-11-13 13:46:21,712 - INFO - Dev 14999 average :12.39 1-verb:36.20 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:62.93 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 13:46:21,713 - INFO - current train loss 2863.357589006424
+2020-11-13 13:47:11,264 - INFO - Epoch 50 completed!
+2020-11-13 13:48:06,063 - INFO - 15199,51,103, 1-verb:73.38 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:89.48 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.78, avg loss = 2.86
+2020-11-13 13:49:45,802 - INFO - Epoch 51 completed!
+2020-11-13 13:51:33,870 - INFO - 15599,52,207, 1-verb:73.83 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:89.61 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.77, avg loss = 2.84
+2020-11-13 13:52:19,528 - INFO - Epoch 52 completed!
+2020-11-13 13:54:54,226 - INFO - Epoch 53 completed!
+2020-11-13 13:55:04,622 - INFO - 15999,54,15, 1-verb:74.02 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:89.70 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.80, avg loss = 2.83
+2020-11-13 13:55:04,623 - INFO - evaluating model...
+2020-11-13 13:56:01,310 - INFO - Dev 15999 average :12.34 1-verb:35.79 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:62.90 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 13:56:01,311 - INFO - current train loss 2830.273692369461
+2020-11-13 13:58:25,839 - INFO - Epoch 54 completed!
+2020-11-13 13:59:30,504 - INFO - 16399,55,119, 1-verb:75.08 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:90.28 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.79, avg loss = 2.81
+2020-11-13 14:01:01,340 - INFO - Epoch 55 completed!
+2020-11-13 14:02:58,115 - INFO - 16799,56,223, 1-verb:75.21 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:90.24 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.86, avg loss = 2.80
+2020-11-13 14:03:35,532 - INFO - Epoch 56 completed!
+2020-11-13 14:04:43,184 - INFO - evaluating model...
+2020-11-13 14:05:39,440 - INFO - Dev 16999 average :12.29 1-verb:35.84 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:62.51 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 14:05:39,440 - INFO - current train loss 2793.556440114975
+2020-11-13 14:07:05,888 - INFO - Epoch 57 completed!
+2020-11-13 14:07:24,783 - INFO - 17199,58,31, 1-verb:75.85 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:90.24 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.81, avg loss = 2.79
+2020-11-13 14:09:40,782 - INFO - Epoch 58 completed!
+2020-11-13 14:10:53,222 - INFO - 17599,59,135, 1-verb:76.24 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:90.57 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.80, avg loss = 2.77
+2020-11-13 14:12:16,107 - INFO - Epoch 59 completed!
+2020-11-13 14:14:21,472 - INFO - 17999,60,239, 1-verb:76.41 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:90.64 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.63, avg loss = 2.77
+2020-11-13 14:14:21,474 - INFO - evaluating model...
+2020-11-13 14:15:17,971 - INFO - Dev 17999 average :12.21 1-verb:35.48 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:62.21 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 14:15:17,972 - INFO - current train loss 2765.181928396225
+2020-11-13 14:15:47,482 - INFO - Epoch 60 completed!
+2020-11-13 14:18:21,241 - INFO - Epoch 61 completed!
+2020-11-13 14:18:48,172 - INFO - 18399,62,47, 1-verb:77.01 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:90.97 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.68, avg loss = 2.75
+2020-11-13 14:20:55,188 - INFO - Epoch 62 completed!
+2020-11-13 14:22:15,529 - INFO - 18799,63,151, 1-verb:77.13 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:91.06 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.62, avg loss = 2.75
+2020-11-13 14:23:29,960 - INFO - Epoch 63 completed!
+2020-11-13 14:24:00,368 - INFO - evaluating model...
+2020-11-13 14:24:56,840 - INFO - Dev 18999 average :12.14 1-verb:35.39 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:61.72 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 14:24:56,841 - INFO - current train loss 2739.6417853832245
+2020-11-13 14:26:39,082 - INFO - 19199,64,255, 1-verb:77.65 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:91.11 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.65, avg loss = 2.75
+2020-11-13 14:27:00,065 - INFO - Epoch 64 completed!
+2020-11-13 14:29:34,860 - INFO - Epoch 65 completed!
+2020-11-13 14:30:10,456 - INFO - 19599,66,63, 1-verb:78.01 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:91.32 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.74, avg loss = 2.73
+2020-11-13 14:32:10,120 - INFO - Epoch 66 completed!
+2020-11-13 14:33:39,006 - INFO - 19999,67,167, 1-verb:78.19 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:91.35 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.66, avg loss = 2.72
+2020-11-13 14:33:39,007 - INFO - evaluating model...
+2020-11-13 14:34:35,176 - INFO - Dev 19999 average :12.17 1-verb:35.38 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:61.97 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 14:34:35,177 - INFO - current train loss 2716.4649884700775
+2020-11-13 14:35:41,618 - INFO - Epoch 67 completed!
+2020-11-13 14:38:03,472 - INFO - 20399,68,271, 1-verb:78.74 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:91.72 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.75, avg loss = 2.70
+2020-11-13 14:38:16,142 - INFO - Epoch 68 completed!
+2020-11-13 14:40:49,649 - INFO - Epoch 69 completed!
+2020-11-13 14:41:32,618 - INFO - 20799,70,79, 1-verb:78.96 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:91.73 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.71, avg loss = 2.69
+2020-11-13 14:43:14,826 - INFO - evaluating model...
+2020-11-13 14:44:11,660 - INFO - Dev 20999 average :12.09 1-verb:35.08 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:61.66 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 14:44:11,661 - INFO - current train loss 2689.743711948395
+2020-11-13 14:44:20,385 - INFO - Epoch 70 completed!
+2020-11-13 14:45:56,246 - INFO - 21199,71,183, 1-verb:79.89 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:91.93 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.61, avg loss = 2.69
+2020-11-13 14:46:54,330 - INFO - Epoch 71 completed!
+2020-11-13 14:49:24,068 - INFO - 21599,72,287, 1-verb:79.87 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:91.98 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.63, avg loss = 2.67
+2020-11-13 14:49:28,301 - INFO - Epoch 72 completed!
+2020-11-13 14:52:03,071 - INFO - Epoch 73 completed!
+2020-11-13 14:52:54,587 - INFO - 21999,74,95, 1-verb:79.88 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:91.97 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.64, avg loss = 2.67
+2020-11-13 14:52:54,589 - INFO - evaluating model...
+2020-11-13 14:53:51,394 - INFO - Dev 21999 average :12.03 1-verb:34.92 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:61.35 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 14:53:51,397 - INFO - current train loss 2666.7344014644623
+2020-11-13 14:55:34,363 - INFO - Epoch 74 completed!
+2020-11-13 14:57:18,074 - INFO - 22399,75,199, 1-verb:80.30 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:92.19 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.59, avg loss = 2.66
+2020-11-13 14:58:07,510 - INFO - Epoch 75 completed!
+2020-11-13 15:00:41,630 - INFO - Epoch 76 completed!
+2020-11-13 15:00:48,014 - INFO - 22799,77,7, 1-verb:80.34 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:92.13 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.66, avg loss = 2.66
+2020-11-13 15:02:30,294 - INFO - evaluating model...
+2020-11-13 15:03:26,619 - INFO - Dev 22999 average :11.97 1-verb:34.83 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:60.96 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 15:03:26,620 - INFO - current train loss 2650.257087469101
+2020-11-13 15:04:12,196 - INFO - Epoch 77 completed!
+2020-11-13 15:05:11,918 - INFO - 23199,78,111, 1-verb:80.98 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:92.45 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.63, avg loss = 2.64
+2020-11-13 15:06:47,441 - INFO - Epoch 78 completed!
+2020-11-13 15:08:40,341 - INFO - 23599,79,215, 1-verb:81.02 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:92.49 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.63, avg loss = 2.63
+2020-11-13 15:09:20,109 - INFO - Epoch 79 completed!
+2020-11-13 15:11:55,568 - INFO - Epoch 80 completed!
+2020-11-13 15:12:10,144 - INFO - 23999,81,23, 1-verb:81.18 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:92.57 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.61, avg loss = 2.63
+2020-11-13 15:12:10,146 - INFO - evaluating model...
+2020-11-13 15:13:06,982 - INFO - Dev 23999 average :11.99 1-verb:34.85 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:61.08 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 15:13:06,982 - INFO - current train loss 2625.691612482071
+2020-11-13 15:15:27,355 - INFO - Epoch 81 completed!
+2020-11-13 15:16:35,014 - INFO - 24399,82,127, 1-verb:81.64 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:92.59 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.64, avg loss = 2.62
+2020-11-13 15:18:02,174 - INFO - Epoch 82 completed!
+2020-11-13 15:20:03,663 - INFO - 24799,83,231, 1-verb:81.69 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:92.59 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.64, avg loss = 2.61
+2020-11-13 15:20:36,949 - INFO - Epoch 83 completed!
+2020-11-13 15:21:47,975 - INFO - evaluating model...
+2020-11-13 15:22:44,416 - INFO - Dev 24999 average :11.94 1-verb:34.83 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:60.65 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 15:22:44,417 - INFO - current train loss 2606.468077659607
+2020-11-13 15:24:03,487 - INFO - Epoch 84 completed!
+2020-11-13 15:24:26,768 - INFO - 25199,85,39, 1-verb:82.12 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:92.72 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.67, avg loss = 2.61
+2020-11-13 15:26:38,340 - INFO - Epoch 85 completed!
+2020-11-13 15:27:55,091 - INFO - 25599,86,143, 1-verb:82.28 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:92.86 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.61, avg loss = 2.60
+2020-11-13 15:29:13,793 - INFO - Epoch 86 completed!
+2020-11-13 15:31:22,499 - INFO - 25999,87,247, 1-verb:82.45 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:92.87 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.58, avg loss = 2.59
+2020-11-13 15:31:22,501 - INFO - evaluating model...
+2020-11-13 15:32:19,122 - INFO - Dev 25999 average :11.88 1-verb:34.48 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:60.60 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 15:32:19,123 - INFO - current train loss 2590.4989473819733
+2020-11-13 15:32:44,403 - INFO - Epoch 87 completed!
+2020-11-13 15:35:18,992 - INFO - Epoch 88 completed!
+2020-11-13 15:35:50,389 - INFO - 26399,89,55, 1-verb:82.79 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:93.05 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.52, avg loss = 2.58
+2020-11-13 15:37:54,020 - INFO - Epoch 89 completed!
+2020-11-13 15:39:17,957 - INFO - 26799,90,159, 1-verb:82.96 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:93.09 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.62, avg loss = 2.57
+2020-11-13 15:40:28,133 - INFO - Epoch 90 completed!
+2020-11-13 15:41:03,370 - INFO - evaluating model...
+2020-11-13 15:41:59,568 - INFO - Dev 26999 average :11.89 1-verb:34.63 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:60.48 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 15:41:59,569 - INFO - current train loss 2571.268591403961
+2020-11-13 15:43:42,176 - INFO - 27199,91,263, 1-verb:83.04 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:93.02 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.58, avg loss = 2.58
+2020-11-13 15:43:58,827 - INFO - Epoch 91 completed!
+2020-11-13 15:46:33,644 - INFO - Epoch 92 completed!
+2020-11-13 15:47:12,951 - INFO - 27599,93,71, 1-verb:83.26 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:93.14 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.49, avg loss = 2.57
+2020-11-13 15:49:08,611 - INFO - Epoch 93 completed!
+2020-11-13 15:50:41,914 - INFO - 27999,94,175, 1-verb:83.44 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:93.25 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.52, avg loss = 2.56
+2020-11-13 15:50:41,916 - INFO - evaluating model...
+2020-11-13 15:51:38,198 - INFO - Dev 27999 average :11.87 1-verb:34.64 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:60.30 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 15:51:38,198 - INFO - current train loss 2556.223466396332
+2020-11-13 15:52:39,796 - INFO - Epoch 94 completed!
+2020-11-13 15:55:06,528 - INFO - 28399,95,279, 1-verb:83.72 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:93.34 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.52, avg loss = 2.55
+2020-11-13 15:55:15,087 - INFO - Epoch 95 completed!
+2020-11-13 15:57:49,338 - INFO - Epoch 96 completed!
+2020-11-13 15:58:36,517 - INFO - 28799,97,87, 1-verb:83.85 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:93.38 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.53, avg loss = 2.55
+2020-11-13 16:00:18,537 - INFO - evaluating model...
+2020-11-13 16:01:15,306 - INFO - Dev 28999 average :11.88 1-verb:34.79 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:60.23 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
+2020-11-13 16:01:15,307 - INFO - current train loss 2542.8786132335663
+2020-11-13 16:01:19,516 - INFO - Epoch 97 completed!
+2020-11-13 16:03:00,555 - INFO - 29199,98,191, 1-verb:84.15 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:93.41 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.52, avg loss = 2.55
+2020-11-13 16:03:54,436 - INFO - Epoch 98 completed!
+2020-11-13 16:06:28,586 - INFO - 29599,99,295, 1-verb:84.31 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 , 5-verb:93.51 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00, loss = 2.66, avg loss = 2.53
+2020-11-13 16:06:28,755 - INFO - Epoch 99 completed!
+2020-11-14 04:36:58,568 - INFO - evaluating model...
+2020-11-14 04:37:46,483 - INFO - evaluating model...
+2020-11-14 04:41:42,345 - INFO - evaluating model...
+2020-11-14 04:42:36,202 - INFO - evaluating model...
+2020-11-14 04:43:15,916 - INFO - Test average :12.85 1-verb:37.51 , 1-value:0.00 , 1-value*:0.00 , 1-value-all:0.00 , 1-value-all*:0.00 5-verb:65.27 , 5-value:0.00 , 5-value*:0.00 , 5-value-all:0.00 , 5-value-all*:0.00
