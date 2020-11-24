@@ -4,11 +4,11 @@ Official Implementation for Knowledge Graph Routed Network for Situation Recogni
 ## Dataset
 Download imSitu image set from http://imsitu.org (we use the resized image set)
 
-## Train
-To train the models, please use the scripts in ./scripts.
+## Train/Evaluate
+To train or evaluate the models, please use the scripts in ./scripts.
 
 ## Pretrained models
-We released pretrained TDA, CAQ, GGNN-baseline, KGRN-R2R, KGRN-R2V, KGRN-R2R-R2V models. You can [download]() them to ./trained_models.
+We released pretrained TDA, CAQ, GGNN-baseline, KGRN-R2R, KGRN-R2V, KGRN-R2R-R2V models. You can [download](https://drive.google.com/drive/folders/1QSgklpRwHfQJxMHckk8n_i9RH3ICt6x9?usp=sharing) them to ./trained_models.
 
 ## Citation
 
