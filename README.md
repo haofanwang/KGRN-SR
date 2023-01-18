@@ -1,5 +1,5 @@
 # KGRN-SR
-Official Implementation for Knowledge Graph Routed Network for Situation Recognition (CVPR 2021)
+Official Implementation for “Knowledge-aware Global Reasoning for Situation Recognition” (TPAMI'2023)
 
 ## Dataset
 Download imSitu image set from http://imsitu.org (we use the resized image set)
